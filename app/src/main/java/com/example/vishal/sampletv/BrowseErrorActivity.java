@@ -43,6 +43,7 @@ public class BrowseErrorActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //comments added
+        //one
         testError();
     }
 
