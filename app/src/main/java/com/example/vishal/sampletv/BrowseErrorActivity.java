@@ -45,10 +45,13 @@ public class BrowseErrorActivity extends Activity {
         //comments added
         //one
         // one again
+        //two
         testError();
     }
 
     private void testError() {
+        //three
+        //three again
         mErrorFragment = new ErrorFragment();
         getFragmentManager().beginTransaction().add(R.id.main_browse_fragment, mErrorFragment).commit();
 
