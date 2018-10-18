@@ -42,16 +42,10 @@ public class BrowseErrorActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //comments added
-        //one
-        // one again
-        //two
         testError();
     }
 
     private void testError() {
-        //three
-        //three again
         mErrorFragment = new ErrorFragment();
         getFragmentManager().beginTransaction().add(R.id.main_browse_fragment, mErrorFragment).commit();
 
