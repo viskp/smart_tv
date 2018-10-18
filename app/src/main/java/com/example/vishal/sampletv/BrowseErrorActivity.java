@@ -44,6 +44,7 @@ public class BrowseErrorActivity extends Activity {
         setContentView(R.layout.activity_main);
         testError();
         //one
+        //one again
     }
 
     private void testError() {
